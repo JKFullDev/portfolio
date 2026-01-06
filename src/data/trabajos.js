@@ -1,0 +1,38 @@
+export const trabajos = [
+    {
+        'id': 'Proyecto1',
+        'nombre': 'Motocard Clone',
+        'url': 'https://motohelmet.netlify.app/',
+        'github': 'https://github.com/JKFullDev/motoHelmet',
+        'tecnologias': 'HTML, CSS, Maquetación Responsive',
+        'categorias': 'Maquetación Web',
+        'descripcion': 'Clonado de la interfaz de la web de Motocard centrado en la fidelidad visual y la adaptabilidad a dispositivos móviles (Responsive Design). Uso intensivo de Flexbox y Grid para estructurar contenidos complejos.',
+    },
+    {
+        'id': 'Proyecto2',
+        'nombre': 'Pentirist - Image Search',
+        'url': 'https://pentirist.vercel.app/',
+        'github': 'https://github.com/JKFullDev/pentirist.git',
+        'tecnologias': 'JS Vanilla, Vite, Unsplash API, CSS3',
+        'categorias': 'Desarrollo Web / APIs',
+        'descripcion': 'Buscador de imágenes avanzado inspirado en Pinterest. Integra la API de Unsplash para ofrecer filtrado por color, orientación y paginación dinámica. Implementa sugerencias automáticas y un diseño masonry responsive.',
+    },
+    {
+        'id': 'Proyecto3',
+        'nombre': 'Golden Giggle',
+        'url': 'https://golden-giggle.vercel.app/',
+        'github': 'https://github.com/JKFullDev/goldenGiggle',
+        'tecnologias': 'JS (SPA), Gold API, SweetAlert2, LocalStorage',
+        'categorias': 'App Web (SPA) / eCommerce',
+        'descripcion': 'Aplicación de comercio electrónico para metales preciosos con datos en tiempo real. Desarrollada como SPA (Single Page Application) sin frameworks, gestionando el estado del carrito y tema (Dark/Light mode) mediante LocalStorage.',
+    },
+    {
+        'id': 'Proyecto4',
+        'nombre': 'Blog Videojuegos CMS',
+        'url': 'https://blog-videojuegos.infinityfreeapp.com/',
+        'github': 'https://github.com/JKFullDev/blog-videojuegos',
+        'tecnologias': 'PHP 8 Nativo, MySQL, MVC, HTML5',
+        'categorias': 'Full Stack / Backend',
+        'descripcion': 'Sistema de Gestión de Contenidos (CMS) completo creado desde cero con PHP puro. Incluye gestión de usuarios (Login/Registro con hash), sistema CRUD para entradas y categorías, y base de datos relacional MySQL.',
+    },
+]
