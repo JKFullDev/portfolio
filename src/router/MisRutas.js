@@ -1,13 +1,13 @@
 import React from 'react';
 import { Routes, Route, BrowserRouter, Navigate } from "react-router-dom";
 import { Inicio } from '../components/Inicio';
-import { Portafolio } from '../components/Portafolio';
+import { Proyectos } from '../components/Proyectos';
 import { Servicios } from '../components/Servicios';
-import { Curriculum } from '../components/Curriculum';
 import { Contacto } from '../components/Contacto';
 import { HeaderNav } from '../components/layout/HeaderNav';
 import { Footer } from '../components/layout/Footer';
 import { Proyecto } from '../components/Proyecto';
+import { SobreMi } from '../components/SobreMi';
 
 export const MisRutas = () => {
     return (
@@ -20,9 +20,9 @@ export const MisRutas = () => {
                 <Routes>
                     <Route path='/' element={<Navigate to="/inicio" />} />
                     <Route path='/inicio' element={<Inicio />} />
-                    <Route path='/portafolio' element={<Portafolio />} />
+                    <Route path='/proyectos' element={<Proyectos />} />
                     <Route path='/servicios' element={<Servicios />} />
-                    <Route path='/curriculum' element={<Curriculum />} />
+                    <Route path='/sobre-mi' element={<SobreMi />} />
                     <Route path='/contacto' element={<Contacto />} />
                     <Route path='/proyecto/:id' element={<Proyecto />} />
                     <Route path='*' element={

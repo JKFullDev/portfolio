@@ -15,14 +15,13 @@ export const HeaderNav = () => {
     return (
         <header className='header'>
 
-            {/* NUEVO LOGO SIMÉTRICO <JC /> */}
             <div className='logo'>
                 <span className="logo-symbol">&lt;</span>
                 <span className="logo-text">JC</span>
                 <span className="logo-symbol">/&gt;</span>
             </div>
 
-            {/* BOTÓN HAMBURGUESA MEJORADO */}
+            {/* BOTÓN HAMBURGUESA */}
             <div className={`hamburger ${menuOpen ? 'open' : ''}`} onClick={toggleMenu}>
                 <div className="line top"></div>
                 <div className="line middle"></div>
@@ -36,13 +35,13 @@ export const HeaderNav = () => {
                         <NavLink to="/inicio" onClick={closeMenu}>Inicio</NavLink>
                     </li>
                     <li>
-                        <NavLink to="/portafolio" onClick={closeMenu}>Portafolio</NavLink>
+                        <NavLink to="/sobre-mi" onClick={closeMenu}>Sobre Mí</NavLink>
+                    </li>
+                    <li>
+                        <NavLink to="/proyectos" onClick={closeMenu}>Proyectos</NavLink>
                     </li>
                     <li>
                         <NavLink to="/servicios" onClick={closeMenu}>Servicios</NavLink>
-                    </li>
-                    <li>
-                        <NavLink to="/curriculum" onClick={closeMenu}>Curriculum</NavLink>
                     </li>
                     <li>
                         <NavLink to="/contacto" onClick={closeMenu}>Contacto</NavLink>

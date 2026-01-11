@@ -1,10 +1,10 @@
 import React from 'react';
 import { ListadoTrabajos } from './ListadoTrabajos';
 
-export const Portafolio = () => {
+export const Proyectos = () => {
     return (
         <div className='page'>
-            <h1 className='heading'>Portfolio</h1>
+            <h1 className='heading'>Proyectos</h1>
 
             <ListadoTrabajos />
 
