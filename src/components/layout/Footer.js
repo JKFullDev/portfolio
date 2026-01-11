@@ -36,8 +36,8 @@ export const Footer = () => {
 
                     <div className='social-links'>
                         <a href="https://linkedin.com/in/jcah-dev" target='_blank' rel='noreferrer'>LinkedIn</a>
-                        {/* Si tienes GitHub ponlo aquí, si no, borra esta línea */}
-                        {/* <a href="https://github.com/TU_USUARIO" target='_blank' rel='noreferrer'>GitHub</a> */}
+
+                        <a href="https://github.com/JKFullDev" target='_blank' rel='noreferrer'>GitHub</a>
                     </div>
                 </div>
             </div>
