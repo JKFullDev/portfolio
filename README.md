@@ -7,22 +7,24 @@
 
 Este es mi portfolio personal, desarrollado como una **Single Page Application (SPA)** moderna utilizando **React 19**. El proyecto se centra en ofrecer una experiencia de usuario (UX) de alto nivel con un diseño "Premium Dark", animaciones fluidas y una arquitectura de código escalable.
 
+🔗 **Demo del proyecto:** [Ver Portafolio Online](https://portfolio-nine-gamma-31.vercel.app/inicio)
+
 ## 🚀 Características Principales
 
--   **Navegación SPA:** Enrutamiento instantáneo sin recargas con `react-router-dom` v7.
--   **Diseño Interactivo 3D:** Tarjetas de proyectos con efecto de profundidad y seguimiento del ratón (*Tilt effect*).
--   **Animaciones Scroll Reveal:** Los elementos aparecen suavemente a medida que el usuario navega, gracias a `framer-motion`.
--   **Feedback de Usuario:** Formulario de contacto con validación en tiempo real y notificaciones visuales (*Toasts*) de éxito/error.
--   **Fondo de Partículas:** Red neuronal interactiva implementada con `tsparticles` que reacciona al cursor.
+-   **Navegación SPA:** Enrutamiento instantáneo sin recargas con `react-router-dom`.
+-   **Diseño Interactivo 3D:** Tarjetas de proyectos con efecto de profundidad y seguimiento del ratón (*Tilt effect*) mediante `react-parallax-tilt`.
+-   **Animaciones "Scroll Reveal":** Los elementos (secciones, tarjetas, habilidades) aparecen suavemente a medida que el usuario navega, gracias a `framer-motion`.
+-   **Feedback de Usuario:** Formulario de contacto inteligente con validación en tiempo real y notificaciones visuales (*Toasts*) de éxito/error usando `react-hot-toast`.
+-   **Fondo de Partículas:** Red neuronal interactiva implementada con `tsparticles` que reacciona al movimiento del cursor.
 -   **Gestión de Contenidos:** Separación estricta entre lógica y datos (`src/data/trabajos.js`), permitiendo añadir nuevos proyectos y logros fácilmente.
 -   **SEO Optimizado:** Gestión dinámica de metadatos con `react-helmet-async`.
--   **Totalmente Responsive:** Adaptado a móviles, tablets y escritorio (Breakpoint personalizado en 1030px).
+-   **Totalmente Responsive:** Adaptado a móviles, tablets y escritorio (Breakpoint personalizado en 1030px para tablets).
 
 ## 🛠️ Stack Tecnológico
 
 ### Core & Frameworks
 -   **React 19**: Hooks avanzados (`useState`, `useEffect`, `useCallback`) y gestión de estado.
--   **React Router DOM**: Gestión de rutas y navegación.
+-   **React Router DOM**: Gestión de rutas y navegación SPA.
 
 ### UI & Estilos
 -   **CSS3 Nativo**: Uso intensivo de Variables CSS, Flexbox, Grid y animaciones `keyframes` (sin frameworks de CSS pesados).
@@ -36,11 +38,15 @@ Este es mi portfolio personal, desarrollado como una **Single Page Application (
 
 ## 📂 Estructura del Proyecto
 
+El código sigue una arquitectura basada en componentes reutilizables:
+
 ```text
 src/
- ├── components/       # Componentes reutilizables (Header, Footer, Cards...)
- │   ├── layout/       # Componentes estructurales
+ ├── components/       # Componentes funcionales
+ │   ├── layout/       # Header, Footer y Navegación
  │   ├── Proyecto.js   # Ficha detalle con logros y stack
+ │   ├── Contacto.js   # Formulario con validación y Toasts
+ │   ├── Skills.js     # Sección interactiva de habilidades
  │   └── ...
  ├── data/             # Fuente de verdad de datos (trabajos.js)
  ├── router/           # Configuración de rutas
