@@ -30,7 +30,7 @@ export const trabajos = [
         'nombre': 'Mi Portafolio Web',
         'url': 'https://portfolio-9f9f83k8n-jkfulldevs-projects.vercel.app/inicio',
         'github': 'https://github.com/JKFullDev/portfolio',
-        'tecnologias': 'React, CSS3 Moderno, Router DOM, Vite',
+        'tecnologias': 'React, CSS3 Moderno, Router DOM',
         'categorias': 'Desarrollo Frontend / SPA',
         'descripcion': 'Proyecto personal desarrollado para mostrar mi trayectoria y habilidades. Diseñado desde cero con React y CSS nativo (sin frameworks de estilos), implementando modo oscuro, diseño totalmente responsive, enrutamiento SPA y componentes interactivos como el conmutador de habilidades.',
     },
