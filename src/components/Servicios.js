@@ -5,7 +5,6 @@ export const Servicios = () => {
     return (
         <div className='page'>
             <h1 className='heading'>Mis Servicios</h1>
-            <h3 className='subheading'>Soluciones tecnológicas a medida para hacer crecer tu negocio</h3>
 
             <section className='services-container'>
 
@@ -52,7 +51,7 @@ export const Servicios = () => {
                     </p>
                     <ul className='service-tags'>
                         <li>Make / n8n</li>
-                        <li>Scripts Python/PHP</li>
+                        <li>Scripts PHP</li>
                         <li>Web Scraping</li>
                     </ul>
                 </article>
