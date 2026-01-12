@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { NavLink } from 'react-router-dom';
+import { NavLink, Link } from 'react-router-dom';
 
 export const HeaderNav = () => {
     const [menuOpen, setMenuOpen] = useState(false);
@@ -8,18 +8,24 @@ export const HeaderNav = () => {
         setMenuOpen(!menuOpen);
     };
 
-    const closeMenu = () => {
+    // Función unificada para cerrar menú y subir al principio
+    const handleNavigation = () => {
         setMenuOpen(false);
+        window.scrollTo({
+            top: 0,
+            behavior: 'smooth' // Desplazamiento suave
+        });
     };
 
     return (
         <header className='header'>
 
-            <div className='logo'>
+            {/* LOGO CLICABLE A INICIO */}
+            <Link to="/inicio" className='logo' onClick={handleNavigation}>
                 <span className="logo-symbol">&lt;</span>
                 <span className="logo-text">JC</span>
                 <span className="logo-symbol">/&gt;</span>
-            </div>
+            </Link>
 
             {/* BOTÓN HAMBURGUESA */}
             <div className={`hamburger ${menuOpen ? 'open' : ''}`} onClick={toggleMenu}>
@@ -32,19 +38,25 @@ export const HeaderNav = () => {
             <nav className={`nav-menu ${menuOpen ? 'active' : ''}`}>
                 <ul>
                     <li>
-                        <NavLink to="/inicio" onClick={closeMenu}>Inicio</NavLink>
+                        <NavLink to="/inicio" onClick={handleNavigation}>Inicio</NavLink>
                     </li>
                     <li>
-                        <NavLink to="/sobre-mi" onClick={closeMenu}>Sobre Mí</NavLink>
+                        <NavLink to="/sobre-mi" onClick={handleNavigation}>Sobre Mí</NavLink>
                     </li>
                     <li>
-                        <NavLink to="/proyectos" onClick={closeMenu}>Proyectos</NavLink>
+                        <NavLink to="/formacion" onClick={handleNavigation}>Formación</NavLink>
                     </li>
                     <li>
-                        <NavLink to="/servicios" onClick={closeMenu}>Servicios</NavLink>
+                        <NavLink to="/skills" onClick={handleNavigation}>Skills</NavLink>
                     </li>
                     <li>
-                        <NavLink to="/contacto" onClick={closeMenu}>Contacto</NavLink>
+                        <NavLink to="/proyectos" onClick={handleNavigation}>Proyectos</NavLink>
+                    </li>
+                    <li>
+                        <NavLink to="/servicios" onClick={handleNavigation}>Servicios</NavLink>
+                    </li>
+                    <li>
+                        <NavLink to="/contacto" onClick={handleNavigation}>Contacto</NavLink>
                     </li>
                 </ul>
             </nav>

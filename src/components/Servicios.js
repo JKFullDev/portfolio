@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { motion } from 'framer-motion';
 
 export const Servicios = () => {
     return (
@@ -9,7 +10,13 @@ export const Servicios = () => {
             <section className='services-container'>
 
                 {/* SERVICIO 1 */}
-                <article className='service-card'>
+                <motion.article
+                    className='service-card'
+                    initial={{ opacity: 0, x: -50 }}
+                    whileInView={{ opacity: 1, x: 0 }}
+                    viewport={{ once: true }}
+                    transition={{ duration: 0.2 }}
+                >
                     <div className='icon'>💻</div>
                     <h2>Desarrollo Web Full Stack</h2>
                     <p>
@@ -22,10 +29,16 @@ export const Servicios = () => {
                         <li>APIs REST</li>
                         <li>Bases de Datos</li>
                     </ul>
-                </article>
+                </motion.article>
 
-                {/* SERVICIO 2 - (Ya no tiene la clase 'highlight') */}
-                <article className='service-card'>
+                {/* SERVICIO 2 */}
+                <motion.article
+                    className='service-card'
+                    initial={{ opacity: 0, x: -50 }}
+                    whileInView={{ opacity: 1, x: 0 }}
+                    viewport={{ once: true }}
+                    transition={{ duration: 0.2 }}
+                >
                     <div className='icon'>🤖</div>
                     <h2>Integración de IA & Chatbots</h2>
                     <p>
@@ -38,10 +51,16 @@ export const Servicios = () => {
                         <li>Chatbots</li>
                         <li>Prompt Engineering</li>
                     </ul>
-                </article>
+                </motion.article>
 
                 {/* SERVICIO 3 */}
-                <article className='service-card'>
+                <motion.article
+                    className='service-card'
+                    initial={{ opacity: 0, x: -50 }}
+                    whileInView={{ opacity: 1, x: 0 }}
+                    viewport={{ once: true }}
+                    transition={{ duration: 0.2 }}
+                >
                     <div className='icon'>⚙️</div>
                     <h2>Automatización de Procesos</h2>
                     <p>
@@ -54,10 +73,16 @@ export const Servicios = () => {
                         <li>Scripts PHP</li>
                         <li>Web Scraping</li>
                     </ul>
-                </article>
+                </motion.article>
 
                 {/* SERVICIO 4 */}
-                <article className='service-card'>
+                <motion.article
+                    className='service-card'
+                    initial={{ opacity: 0, x: -50 }}
+                    whileInView={{ opacity: 1, x: 0 }}
+                    viewport={{ once: true }}
+                    transition={{ duration: 0.2 }}
+                >
                     <div className='icon'>🚀</div>
                     <h2>Webs Corporativas & SEO</h2>
                     <p>
@@ -70,7 +95,7 @@ export const Servicios = () => {
                         <li>SEO Básico</li>
                         <li>Landing Pages</li>
                     </ul>
-                </article>
+                </motion.article>
 
             </section>
 
