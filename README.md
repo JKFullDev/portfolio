@@ -4,74 +4,51 @@
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 
+Este es mi portfolio personal, desarrollado como una **Single Page Application (SPA)** moderna utilizando **React 19**. El objetivo de este proyecto es demostrar mis capacidades técnicas en el desarrollo Frontend, la integración de librerías de vanguardia y el diseño de interfaces de usuario (UI) con un enfoque "Premium Dark".
 
-Bienvenido a mi portafolio personal web. Este proyecto es una **Single Page Application (SPA)** desarrollada con **React** para mostrar mis habilidades, experiencia laboral y los proyectos más destacados que he realizado como Desarrollador Full Stack.
+## 🚀 Características Principales
 
-🔗 **Demo del proyecto:** [Ver Portafolio Online](https://portfolio-9f9f83k8n-jkfulldevs-projects.vercel.app/inicio)
+-   **Navegación Fluida:** Implementación de `react-router-dom` para una experiencia de usuario sin recargas de página.
+-   **Diseño Premium Dark:** Interfaz basada en *Glassmorphism*, con un uso estratégico de variables CSS para mantener la coherencia visual y facilitar el mantenimiento.
+-   **Animaciones Avanzadas:** Uso de `framer-motion` para transiciones entre páginas y `tsparticles` para un fondo dinámico e interactivo.
+-   **Arquitectura de Datos:** Separación de la lógica y el contenido mediante un archivo centralizado de datos (`trabajos.js`), lo que permite escalar el portfolio fácilmente.
+-   **SEO & Meta-tags:** Integración de `react-helmet-async` para la gestión dinámica de títulos y meta-descripciones, optimizando el posicionamiento y la indexación.
+-   **Totalmente Responsive:** Adaptabilidad completa mediante Media Queries personalizadas, incluyendo un menú lateral de tipo "hamburger" para dispositivos móviles.
 
----
+## 🛠️ Stack Tecnológico
 
-## ✨ Características Principales
-
-- **⚡ Navegación SPA:** Transiciones instantáneas entre secciones sin recargas de página gracias a `react-router-dom`.
-- **📱 Diseño Responsive:** Interfaz totalmente adaptable a móviles, tablets y escritorio (Mobile First).
-- **🎨 Estilos Personalizados:** CSS modular y organizado, con animaciones suaves y un diseño moderno.
-- **📂 Gestión de Proyectos Dinámica:** Los trabajos se cargan dinámicamente desde un archivo de datos centralizado, permitiendo escalar el portafolio fácilmente.
-- **📄 Currículum Interactivo:** Sección dedicada a la formación y experiencia con opción de descarga de CV en PDF.
-- **📧 Formulario de Contacto:** Integración nativa para contacto rápido.
-
----
-
-## 🛠️ Tecnologías Utilizadas
-
-- **Frontend:** React 18 (Hooks: `useState`, `useEffect`, `useParams`).
-- **Enrutamiento:** React Router DOM v6.
-- **Estilos:** CSS3 nativo (Flexbox, Grid, Media Queries).
-- **Control de Versiones:** Git & GitHub.
-- **Assets:** Iconos y recursos optimizados.
-
----
-
-## 🚀 Instalación y Uso Local
-
-Si quieres clonar y ejecutar este proyecto:
-
-1. **Clona el repositorio:**
-   ```bash
-   git clone https://github.com/JKFullDev/portfolio.git
-   ```
-2. **Entra en el directorio**
-   ```bash
-   cd portfolio
-   ```
-3. **Clona el repositorio:**
-   ```bash
-   npm install
-   ```
-4. **Entra en el directorio**
-   ```bash
-   cd npm start
-   # O si usas Vite:
-   npm run dev
-   ```
-5. **Abre tu navegador en http://localhost:3000 (o el puerto que te indique la consola).**
+-   **Core:** React 19 (Hooks: useState, useEffect, useCallback, useParams).
+-   **Estilos:** CSS3 nativo con Variables Dinámicas y Flexbox/Grid.
+-   **Animaciones:** Framer Motion & tsparticles-slim.
+-   **Navegación:** React Router 7 (BrowserRouter, Routes, Route, Navigate).
+-   **SEO:** React Helmet Async.
 
 ## 📂 Estructura del Proyecto
-El código está organizado siguiendo las mejores prácticas de React:
 
-```Plaintext
-
+```text
 src/
-├── components/          
-│   ├── layout/          # Componentes estructurales (Header, Footer, etc.)
-│   └── ...              # Páginas (Inicio, Portafolio, Contacto...)
-├── data/                # "Base de datos" local (trabajos.js)
-├── router/              # Configuración de rutas (MisRutas.js)
-├── styles/              # Archivos CSS (si decides modularizar más)
-├── App.js               # Componente principal
-└── index.js             # Punto de entrada
+ ├── components/       # Componentes funcionales (Inicio, Proyecto, SobreMi, etc.)
+ ├── data/             # Lógica de datos (trabajos.js)
+ ├── router/           # Configuración de rutas y wrappers de animación
+ ├── index.css         # Hoja de estilos global y variables
+ └── App.js            # Punto de entrada de la aplicación
+
+## 🔧 Instalación y Ejecución
+Clona el repositorio:
+
+```Bash
+git clone [https://github.com/JKFullDev/portfolio.git](https://github.com/JKFullDev/portfolio.git)
 ```
 
+Instala las dependencias (ignorando conflictos de peer-dependencies debidos a la versión de React 19):
+```Bash
+npm install --legacy-peer-deps
+```
+
+Arranca el proyecto en modo desarrollo:
+```Bash
+npm start
+```
 
 ## 📬 Contacto
 
