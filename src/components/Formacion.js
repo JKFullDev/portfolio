@@ -18,6 +18,12 @@ export const Formacion = () => {
             desc: "Programa intensivo enfocado en el stack MERN (MongoDB, Express, React, Node.js). Desarrollo de aplicaciones SPA escalables, consumo de APIs y gestión de estado global."
         },
         {
+            titulo: "Máster PowerIA v.3",
+            centro: "Prometeo by ThePowerFP",
+            fecha: "Actualidad",
+            desc: "Formación avanzada en Inteligencia Artificial aplicada al desarrollo. Uso de Copilots y automatización."
+        },
+        {
             titulo: "Bachillerato de Ciencias y Tecnología",
             centro: "I.E.S. Pradolongo",
             fecha: "2021",
@@ -31,7 +37,7 @@ export const Formacion = () => {
         {
             titulo: "Máster en PHP, SQL, POO, MVC, Laravel",
             centro: "Udemy (Víctor Robles)",
-            fecha: "2024",
+            fecha: "Actualidad",
             desc: "Formación backend profesional. Dominio de PHP 8, bases de datos relacionales y patrones MVC. Desarrollo con Laravel y Symfony.",
         },
         {
@@ -40,12 +46,7 @@ export const Formacion = () => {
             fecha: "Actualidad",
             desc: "Especialización profunda en el ecosistema React. Desarrollo de SPAs modernas utilizando Hooks, Context API y Redux."
         },
-        {
-            titulo: "Máster PowerIA v.3",
-            centro: "Prometeo by ThePowerFP",
-            fecha: "Actualidad",
-            desc: "Formación avanzada en Inteligencia Artificial aplicada al desarrollo. Uso de Copilots y automatización."
-        },
+
     ];
 
     // COMPONENTE AUXILIAR TARJETA

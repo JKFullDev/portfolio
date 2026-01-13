@@ -13,7 +13,7 @@ export const Footer = () => {
                         <span className="logo-text">JC</span>
                         <span className="logo-symbol">/&gt;</span>
                     </div>
-                    <p>Desarrollando experiencias web modernas y escalables.</p>
+                    <p>Desarrollador Full Stack. Transformando necesidades complejas en soluciones web eficientes y modernas.</p>
                 </div>
 
                 {/* COLUMNA 2: ENLACES */}

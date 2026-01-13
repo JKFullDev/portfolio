@@ -64,7 +64,7 @@ body {
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  margin-bottom: 40px;
+  margin-top: 50px;
   text-align: center;
   animation: revealTitle 0.8s cubic-bezier(0.175, 0.885, 0.32, 1.275) forwards;
 }
@@ -686,6 +686,7 @@ body {
   gap: 25px;
   max-width: 1000px;
   margin: 0 auto;
+  align-items: start;
 }
 
 .edu-card {
@@ -702,6 +703,7 @@ body {
   /* Altura mínima para que quepa el título */
   display: flex;
   flex-direction: column;
+  min-height: 220px;
 }
 
 /* Indicador visual de que se puede abrir */
