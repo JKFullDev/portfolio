@@ -38,8 +38,8 @@ export const SobreMi = () => {
                     {/* PEQUEÑOS DATOS CURIOSOS (STATS) */}
                     <div className='stats-grid'>
                         <div className='stat-item'>
-                            <span className='stat-number'>MERN</span>
-                            <span className='stat-label'>Stack Principal</span>
+                            <span className='stat-number'>Full Stack</span>
+                            <span className='stat-label'>Perfil Técnico</span>
                         </div>
                         <div className='stat-item'>
                             <span className='stat-number'>100%</span>

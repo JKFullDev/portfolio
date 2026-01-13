@@ -41,11 +41,13 @@ export const Proyecto = () => {
 
             <div className='btns-project'>
                 <a href={proyecto.url} target="_blank" rel="noreferrer" className='btn-work btn-live'>
-                    Ver Demo Online
+                    Ver Aplicación
                 </a>
-                <a href={proyecto.github} target="_blank" rel="noreferrer" className='btn-work btn-repo'>
-                    Ver Código en GitHub
-                </a>
+                {proyecto.github && (
+                    <a href={proyecto.github} target="_blank" rel="noreferrer" className='btn-work btn-github-project'>
+                        Ver Código en GitHub
+                    </a>
+                )}
             </div>
 
             {/* SECCIÓN DE LOGROS */}

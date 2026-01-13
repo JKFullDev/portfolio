@@ -12,6 +12,7 @@ Este es mi portfolio personal, desarrollado como una **Single Page Application (
 ## 🚀 Características Principales
 
 -   **Navegación SPA:** Enrutamiento instantáneo sin recargas con `react-router-dom`.
+-   **Gestión de Proyectos Real:** Sistema de filtrado dinámico para separar **Proyectos Profesionales** (Clientes reales) de **Proyectos Personales**.
 -   **Diseño Interactivo 3D:** Tarjetas de proyectos con efecto de profundidad y seguimiento del ratón (*Tilt effect*) mediante `react-parallax-tilt`.
 -   **Animaciones "Scroll Reveal":** Los elementos (secciones, tarjetas, habilidades) aparecen suavemente a medida que el usuario navega, gracias a `framer-motion`.
 -   **Feedback de Usuario:** Formulario de contacto inteligente con validación en tiempo real y notificaciones visuales (*Toasts*) de éxito/error usando `react-hot-toast`.
