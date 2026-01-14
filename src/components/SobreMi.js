@@ -29,10 +29,10 @@ export const SobreMi = () => {
                 >
                     <h2 className='sub-heading'>Desarrollador Web Full Stack</h2>
                     <p>
-                        ¡Hola! Soy <strong>Juan Carlos</strong>. Mi pasión es crear experiencias digitales que funcionen tan bien como se ven. Actualmente me estoy especializando en el stack MERN y en arquitecturas escalables.
+                        ¡Hola! Soy <strong>Juan Carlos</strong>. Me apasiona comprender cómo funcionan las aplicaciones 'bajo el capó', centrándome en la creación de lógica robusta y arquitecturas de datos eficientes.
                     </p>
                     <p>
-                        No me conformo con que el código funcione; busco que sea limpio, mantenible y eficiente. Cuando no estoy programando, me encontrarás investigando sobre IA o buscando la mejor forma de optimizar procesos.
+                        Actualmente, dedico mi formación a dominar el stack MERN, pero siempre con una mirada puesta en el Backend. Mi objetivo no es solo que el código cumpla su función, sino que sea limpio, estructurado y escalable desde la base. Me interesa especialmente la integridad de los datos y la optimización de procesos.
                     </p>
 
                     {/* PEQUEÑOS DATOS CURIOSOS (STATS) */}
