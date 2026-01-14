@@ -40,9 +40,11 @@ export const Proyecto = () => {
             <p className='description'>{proyecto.descripcion}</p>
 
             <div className='btns-project'>
-                <a href={proyecto.url} target="_blank" rel="noreferrer" className='btn-work btn-live'>
-                    Ver Aplicación
-                </a>
+                {proyecto.url && (
+                    <a href={proyecto.url} target="_blank" rel="noreferrer" className='btn-work btn-live'>
+                        Ver Aplicación
+                    </a>
+                )}
                 {proyecto.github && (
                     <a href={proyecto.github} target="_blank" rel="noreferrer" className='btn-work btn-github-project'>
                         Ver Código en GitHub

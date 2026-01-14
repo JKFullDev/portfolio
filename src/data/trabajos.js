@@ -47,7 +47,7 @@ export const trabajos = [
     {
         'id': 'Proyecto4',
         'nombre': 'Mi Portafolio Web',
-        'url': 'https://portfolio-9f9f83k8n-jkfulldevs-projects.vercel.app/inicio',
+        'url': 'https://portfolio-nine-gamma-31.vercel.app/',
         'github': 'https://github.com/JKFullDev/portfolio',
         'tecnologias': 'React, CSS3 Moderno, Router DOM',
         'categorias': 'Desarrollo Frontend / SPA',
@@ -74,4 +74,36 @@ export const trabajos = [
             "Diseño adaptativo (Responsive) para dispositivos móviles."
         ]
     },
+    {
+        'id': 'Proyecto6',
+        'nombre': 'Tierra Media RPG',
+        'url': null,
+        'github': 'https://github.com/JKFullDev/java-rpg-tierra-media',
+        'tecnologias': 'Java, POO, Arquitectura de Software, Git',
+        'categorias': 'Backend / Algoritmia / Consola',
+        'tipo': 'personal',
+        'descripcion': 'Simulador de combate por turnos desarrollado en Java puro. Diseñé una arquitectura escalable basada en Programación Orientada a Objetos para gestionar razas, inventarios y mecánicas de probabilidad sin depender de motores gráficos.',
+        'logros': [
+            "Arquitectura basada en Herencia y Polimorfismo para escalabilidad.",
+            "Lógica compleja de combate (probabilidades, estados y turnos).",
+            "Interfaz de usuario técnica renderizada con Arte ASCII en consola."
+        ]
+    },
+    {
+        'id': 'Proyecto7',
+        'nombre': 'B2B Connect SQL',
+        'url': null,
+        'github': 'https://github.com/JKFullDev/b2b-connect-sql',
+        'tecnologias': 'MySQL, SQL Scripting, DB Design',
+        'categorias': 'BACKEND / DATABASE',
+        'tipo': 'personal',
+        'descripcion': 'Diseño y optimización de infraestructura de datos para una plataforma de matchmaking empresarial. Implementación de reglas de negocio complejas y validación de integridad directamente en el motor de base de datos.',
+        'logros': [
+            "Lógica server-side mediante CHECK constraints.",
+            "Modelado relacional para flujos de interacción.",
+            "Optimización de consultas mediante índices.",
+            "Scripts de prueba y validación de flujos."
+        ]
+    }
+
 ]

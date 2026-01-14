@@ -22,13 +22,13 @@ export const Proyectos = () => {
                     className={`tab-btn ${categoria === 'personal' ? 'active' : ''}`}
                     onClick={() => setCategoria('personal')}
                 >
-                    👨‍💻 Proyectos Personales
+                    Proyectos Personales
                 </button>
                 <button
                     className={`tab-btn ${categoria === 'profesional' ? 'active' : ''}`}
                     onClick={() => setCategoria('profesional')}
                 >
-                    💼 Proyectos Profesionales
+                    Proyectos Profesionales
                 </button>
 
             </div>
@@ -53,10 +53,7 @@ export const Proyectos = () => {
                                 tiltMaxAngleY={10}
                                 scale={1.02}
                                 transitionSpeed={2500}
-                                glareEnable={true}
-                                glareMaxOpacity={0.3}
-                                glareColor="#ffffff"
-                                style={{ height: '100%' }}
+
                             >
                                 <Link to={"/proyecto/" + trabajo.id} className='work-item'>
                                     <div className='mask'>
