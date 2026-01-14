@@ -3,7 +3,7 @@ import ParticlesBackground from './components/ParticlesBackground';
 
 function App() {
   return (
-    <div className="App"> {/* <--- HEMOS QUITADO LA CLASE 'layout' DE AQUÍ */}
+    <div className="App">
 
       {/* FONDO DE PARTÍCULAS */}
       <ParticlesBackground />

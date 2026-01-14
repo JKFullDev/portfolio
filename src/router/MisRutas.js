@@ -10,10 +10,13 @@ import { Proyecto } from '../components/Proyecto';
 import { SobreMi } from '../components/SobreMi';
 import { Skills } from '../components/Skills';
 import { Formacion } from '../components/Formacion';
+import ScrollToTop from '../components/ScrollToTop';
 
 export const MisRutas = () => {
     return (
         <BrowserRouter>
+
+            <ScrollToTop />
             <HeaderNav />
 
             {/* AÑADIMOS 'layout' AQUÍ PARA CENTRAR SOLO EL CONTENIDO */}
