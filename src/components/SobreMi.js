@@ -32,7 +32,7 @@ export const SobreMi = () => {
                         ¡Hola! Soy <strong>Juan Carlos</strong>. Me apasiona comprender cómo funcionan las aplicaciones 'bajo el capó', centrándome en la creación de lógica robusta y arquitecturas de datos eficientes.
                     </p>
                     <p>
-                        Actualmente, dedico mi formación a dominar el stack MERN, pero siempre con una mirada puesta en el Backend. Mi objetivo no es solo que el código cumpla su función, sino que sea limpio, estructurado y escalable desde la base. Me interesa especialmente la integridad de los datos y la optimización de procesos.
+                        Actualmente, desarrollo soluciones integrales dentro del ecosistema de Microsoft, especializándome en el stack de <strong>C#, .NET 9, SQL Server y Blazor</strong>. Mi objetivo no es solo que el código cumpla su función, sino que sea limpio, estructurado y escalable desde la base. Me interesa especialmente la integridad de los datos, la optimización de procesos y el desarrollo de <strong>sistemas empresariales seguros</strong>.                   
                     </p>
 
                     {/* PEQUEÑOS DATOS CURIOSOS (STATS) */}

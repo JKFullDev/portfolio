@@ -1,21 +1,52 @@
 export const trabajos = [
     {
         'id': 'Proyecto1',
-        'nombre': 'Pentirist - Image Search',
-        'url': 'https://pentirist.vercel.app/',
-        'github': 'https://github.com/JKFullDev/pentirist.git',
-        'tecnologias': 'JS Vanilla, Vite, Unsplash API, CSS3',
-        'categorias': 'Desarrollo Web / APIs',
+        'nombre': 'B2B Connect SQL',
+        'url': null,
+        'github': 'https://github.com/JKFullDev/b2b-connect-sql',
+        'tecnologias': 'MySQL, SQL Scripting, DB Design',
+        'categorias': 'BACKEND / DATABASE',
         'tipo': 'personal',
-        'descripcion': 'Buscador de imágenes avanzado inspirado en Pinterest. Integra la API de Unsplash para ofrecer filtrado por color, orientación y paginación dinámica. Implementa sugerencias automáticas y un diseño masonry responsive.',
+        'descripcion': 'Diseño y optimización de infraestructura de datos para una plataforma de matchmaking empresarial. Implementación de reglas de negocio complejas y validación de integridad directamente en el motor de base de datos.',
         'logros': [
-            "Integración asíncrona eficiente con la API de Unsplash para búsqueda en tiempo real.",
-            "Implementación de algoritmo Masonry Layout (muro de ladrillos) con CSS Grid y JS.",
-            "Optimización del rendimiento de carga mediante lazy loading de imágenes."
+            "Lógica server-side mediante CHECK constraints.",
+            "Modelado relacional para flujos de interacción.",
+            "Optimización de consultas mediante índices.",
+            "Scripts de prueba y validación de flujos."
         ]
     },
     {
         'id': 'Proyecto2',
+        'nombre': 'Tierra Media RPG',
+        'url': null,
+        'github': 'https://github.com/JKFullDev/java-rpg-tierra-media',
+        'tecnologias': 'Java, POO, Arquitectura de Software, Git',
+        'categorias': 'Backend / Algoritmia / Consola',
+        'tipo': 'personal',
+        'descripcion': 'Simulador de combate por turnos desarrollado en Java puro. Diseñé una arquitectura escalable basada en Programación Orientada a Objetos para gestionar razas, inventarios y mecánicas de probabilidad sin depender de motores gráficos.',
+        'logros': [
+            "Arquitectura basada en Herencia y Polimorfismo para escalabilidad.",
+            "Lógica compleja de combate (probabilidades, estados y turnos).",
+            "Interfaz de usuario técnica renderizada con Arte ASCII en consola."
+        ]
+    },
+    // {
+    //     'id': 'Proyecto1',
+    //     'nombre': 'Pentirist - Image Search',
+    //     'url': 'https://pentirist.vercel.app/',
+    //     'github': 'https://github.com/JKFullDev/pentirist.git',
+    //     'tecnologias': 'JS Vanilla, Vite, Unsplash API, CSS3',
+    //     'categorias': 'Desarrollo Web / APIs',
+    //     'tipo': 'personal',
+    //     'descripcion': 'Buscador de imágenes avanzado inspirado en Pinterest. Integra la API de Unsplash para ofrecer filtrado por color, orientación y paginación dinámica. Implementa sugerencias automáticas y un diseño masonry responsive.',
+    //     'logros': [
+    //         "Integración asíncrona eficiente con la API de Unsplash para búsqueda en tiempo real.",
+    //         "Implementación de algoritmo Masonry Layout (muro de ladrillos) con CSS Grid y JS.",
+    //         "Optimización del rendimiento de carga mediante lazy loading de imágenes."
+    //     ]
+    // },
+    {
+        'id': 'Proyecto3',
         'nombre': 'Golden Giggle',
         'url': 'https://golden-giggle.vercel.app/',
         'github': 'https://github.com/JKFullDev/goldenGiggle',
@@ -30,7 +61,7 @@ export const trabajos = [
         ]
     },
     {
-        'id': 'Proyecto3',
+        'id': 'Proyecto4',
         'nombre': 'Blog Videojuegos CMS',
         'url': 'https://blog-videojuegos.infinityfreeapp.com/',
         'github': 'https://github.com/JKFullDev/blog-videojuegos',
@@ -45,7 +76,7 @@ export const trabajos = [
         ]
     },
     {
-        'id': 'Proyecto4',
+        'id': 'Proyecto5',
         'nombre': 'Mi Portafolio Web',
         'url': 'https://portfolio-nine-gamma-31.vercel.app/',
         'github': 'https://github.com/JKFullDev/portfolio',
@@ -60,7 +91,7 @@ export const trabajos = [
         ]
     },
     {
-        'id': 'Proyecto5',
+        'id': 'Proyecto6',
         'nombre': 'Ahelimp',
         'url': 'https://ahelimp.es/',
         'github': null,
@@ -75,34 +106,19 @@ export const trabajos = [
         ]
     },
     {
-        'id': 'Proyecto6',
-        'nombre': 'Tierra Media RPG',
-        'url': null,
-        'github': 'https://github.com/JKFullDev/java-rpg-tierra-media',
-        'tecnologias': 'Java, POO, Arquitectura de Software, Git',
-        'categorias': 'Backend / Algoritmia / Consola',
-        'tipo': 'personal',
-        'descripcion': 'Simulador de combate por turnos desarrollado en Java puro. Diseñé una arquitectura escalable basada en Programación Orientada a Objetos para gestionar razas, inventarios y mecánicas de probabilidad sin depender de motores gráficos.',
-        'logros': [
-            "Arquitectura basada en Herencia y Polimorfismo para escalabilidad.",
-            "Lógica compleja de combate (probabilidades, estados y turnos).",
-            "Interfaz de usuario técnica renderizada con Arte ASCII en consola."
-        ]
-    },
-    {
         'id': 'Proyecto7',
-        'nombre': 'B2B Connect SQL',
-        'url': null,
-        'github': 'https://github.com/JKFullDev/b2b-connect-sql',
-        'tecnologias': 'MySQL, SQL Scripting, DB Design',
-        'categorias': 'BACKEND / DATABASE',
-        'tipo': 'personal',
-        'descripcion': 'Diseño y optimización de infraestructura de datos para una plataforma de matchmaking empresarial. Implementación de reglas de negocio complejas y validación de integridad directamente en el motor de base de datos.',
+        'nombre': 'Extensiones Shop',
+        'url': 'https://extensiones.shop/',
+        'github': null, // Ajusta si el repo es privado o diferente
+        'tecnologias': 'C#, .NET 9, Blazor (Interactive WebAssembly), SQL Server, Entity Framework Core',
+        'categorias': 'E-commerce Full Stack / Producción',
+        'tipo': 'profesional',
+        'descripcion': 'Plataforma de comercio electrónico para la venta de extensiones de cabello y productos de belleza. Desarrollada con arquitectura moderna bajo .NET 9, incluye un sistema de administración a medida (CMS), gestión de stock en tiempo real y una experiencia de usuario fluida optimizada para la conversión.',
         'logros': [
-            "Lógica server-side mediante CHECK constraints.",
-            "Modelado relacional para flujos de interacción.",
-            "Optimización de consultas mediante índices.",
-            "Scripts de prueba y validación de flujos."
+            "Desarrollo de una SPA interactiva con Blazor y .NET 9, logrando tiempos de respuesta instantáneos.",
+            "Panel de administración personalizado para la gestión autónoma de productos, pedidos y categorías por parte del cliente.",
+            "Arquitectura robusta con SQL Server y EF Core, incluyendo lógica de negocio compleja para variantes de producto.",
+            "Despliegue integral en producción con configuración de certificados SSL."
         ]
     }
 

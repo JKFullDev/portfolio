@@ -8,7 +8,7 @@ export const ListadoTrabajos = ({ limite }) => {
     return (
         <section className='works'>
             {
-                trabajos.slice(0, limite).map((trabajo, index) => {
+                [...trabajos].reverse().slice(0, limite).map((trabajo, index) => {
                     return (
                         <motion.div
                             key={trabajo.id}

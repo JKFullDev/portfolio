@@ -7,16 +7,18 @@ export const Skills = () => {
 
     // DATOS: Skills
     const hardSkills = [
+        // --- Ecosistema Microsoft (Tu especialidad actual) ---
+        { nombre: "C#", imagen: "/images/logos/csharp.png" },
+        { nombre: ".NET 9", imagen: "/images/logos/dotnet.png" },
+        { nombre: "Blazor", imagen: "/images/logos/blazor.png" },
+        { nombre: "SQL Server", imagen: "/images/logos/sqlserver.png" },
+        
+        // --- Frontend & Otras Tecnologías ---
         { nombre: "React.js", imagen: "/images/logos/react.png" },
         { nombre: "JavaScript", imagen: "/images/logos/js.png" },
-        { nombre: "CSS3", imagen: "/images/logos/css.png" },
-        { nombre: "HTML5", imagen: "/images/logos/html.png" },
         { nombre: "Java", imagen: "/images/logos/java.png" },
-        { nombre: "PHP", imagen: "/images/logos/php.png" },
         { nombre: "MySQL", imagen: "/images/logos/mysql.png" },
-        { nombre: "Node.js", imagen: "/images/logos/node.png" },
         { nombre: "Git", imagen: "/images/logos/git.png" },
-        { nombre: "Wordpress", imagen: "/images/logos/wordpress.png" },
     ];
 
     const softSkills = [

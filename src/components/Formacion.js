@@ -17,12 +17,12 @@ export const Formacion = () => {
             fecha: "Actualidad",
             desc: "Programa intensivo enfocado en el stack MERN (MongoDB, Express, React, Node.js). Desarrollo de aplicaciones SPA escalables, consumo de APIs y gestión de estado global."
         },
-        {
-            titulo: "Máster PowerIA v.3",
-            centro: "Prometeo by ThePowerFP",
-            fecha: "Actualidad",
-            desc: "Formación avanzada en Inteligencia Artificial aplicada al desarrollo. Uso de Copilots y automatización."
-        },
+        // {
+        //     titulo: "Máster PowerIA v.3",
+        //     centro: "Prometeo by ThePowerFP",
+        //     fecha: "Actualidad",
+        //     desc: "Formación avanzada en Inteligencia Artificial aplicada al desarrollo. Uso de Copilots y automatización."
+        // },
         {
             titulo: "Bachillerato de Ciencias y Tecnología",
             centro: "I.E.S. Pradolongo",
@@ -35,10 +35,10 @@ export const Formacion = () => {
     // DATOS: Formación Complementaria
     const cursosComplementarios = [
         {
-            titulo: "Máster en PHP, SQL, POO, MVC, Laravel",
-            centro: "Udemy (Víctor Robles)",
+            titulo: "Máster en Blazor - Server y WebAssembly",
+            centro: "Udemy (render2web)",
             fecha: "Actualidad",
-            desc: "Formación backend profesional. Dominio de PHP 8, bases de datos relacionales y patrones MVC. Desarrollo con Laravel y Symfony.",
+            desc: "Especialización profunda en el ecosistema .NET. Desarrollo de SPAs modernas utilizando Blazor WebAssembly, C# y arquitecturas de alto rendimiento.",
         },
         {
             titulo: "Máster en React: Hooks, MERN & Redux",

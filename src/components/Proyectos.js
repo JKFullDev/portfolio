@@ -9,9 +9,10 @@ export const Proyectos = () => {
     // Estado para controlar qué categoría se muestra ('profesional' o 'personal')
     const [categoria, setCategoria] = useState('personal');
 
-    // Filtramos los trabajos según la categoría seleccionada
-    const trabajosFiltrados = trabajos.filter(trabajo => trabajo.tipo === categoria);
-
+// Filtramos los trabajos según la categoría y les damos la vuelta para mostrar los nuevos primero
+const trabajosFiltrados = [...trabajos]
+                            .reverse()
+                            .filter(trabajo => trabajo.tipo === categoria);
     return (
         <div className='page'>
             <h1 className='heading'>Mis Proyectos</h1>
