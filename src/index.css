@@ -278,6 +278,7 @@ body {
   /* Reset enlace */
   color: inherit;
   /* Reset enlace */
+  height: 380px;
 }
 
 .work-item:hover,
