@@ -10,6 +10,7 @@ export const Formacion = () => {
             centro: "Prometeo by ThePowerFP",
             fecha: "Actualidad",
             desc: "Titulación oficial centrada en la arquitectura de aplicaciones web. Formación exhaustiva en diseño de interfaces, lógica de servidor, gestión avanzada de bases de datos y metodologías ágiles.",
+            certificado: "/images/titulos/daw.pdf"
         },
         {
             titulo: "Máster Full Stack Developer",
