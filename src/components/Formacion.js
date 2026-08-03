@@ -42,10 +42,11 @@ export const Formacion = () => {
             desc: "Especialización profunda en el ecosistema .NET. Desarrollo de SPAs modernas utilizando Blazor WebAssembly, C# y arquitecturas de alto rendimiento.",
         },
         {
-            titulo: "Máster en React: Hooks, MERN & Redux",
-            centro: "Udemy (Víctor Robles)",
-            fecha: "Actualidad",
-            desc: "Especialización profunda en el ecosistema React. Desarrollo de SPAs modernas utilizando Hooks, Context API y Redux."
+            titulo: "Certificación AZ-900: Microsoft Azure Fundamentals",
+            centro: "Microsoft / Udemy",
+            fecha: "Julio 2026",
+            desc: "Dominio de conceptos de nube, arquitectura de Azure, servicios principales y gobernanza.",
+            certificado: "/images/titulos/certificaciones/microsoft_AZ900.pdf"
         },
 
     ];
