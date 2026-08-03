@@ -8,7 +8,7 @@ export const Formacion = () => {
         {
             titulo: "CFGS Desarrollo de Aplicaciones Web",
             centro: "Prometeo by ThePowerFP",
-            fecha: "Actualidad",
+            fecha: "Junio 2026",
             desc: "Titulación oficial centrada en la arquitectura de aplicaciones web. Formación exhaustiva en diseño de interfaces, lógica de servidor, gestión avanzada de bases de datos y metodologías ágiles.",
             certificado: "/images/titulos/daw.pdf"
         },
@@ -43,7 +43,7 @@ export const Formacion = () => {
         },
         {
             titulo: "Certificación AZ-900: Microsoft Azure Fundamentals",
-            centro: "Microsoft / Udemy",
+            centro: "Microsoft",
             fecha: "Julio 2026",
             desc: "Dominio de conceptos de nube, arquitectura de Azure, servicios principales y gobernanza.",
             certificado: "/images/titulos/certificaciones/microsoft_AZ900.pdf"
