@@ -48,6 +48,13 @@ export const Formacion = () => {
             desc: "Dominio de conceptos de nube, arquitectura de Azure, servicios principales y gobernanza.",
             certificado: "/images/titulos/certificaciones/microsoft_AZ900.pdf"
         },
+        {
+            titulo: "Certificación DP-900: Microsoft Azure Data Fundamentals",
+            centro: "Microsoft",
+            fecha: "Septiembre 2026",
+            desc: "Dominio de conceptos básicos de datos, datos relacionales y no relacionales en la nube, y componentes de analítica moderna en Azure.",
+            certificado: "/images/titulos/certificaciones/microsoft_DP900.pdf"
+        },
 
     ];
 
